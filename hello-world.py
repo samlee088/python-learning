@@ -38,4 +38,7 @@ print(favorite_language.rstrip())
 print(favorite_language.lstrip())
 print(favorite_language.strip())
 
+#Removing Prefixes
+nostarchUrl = 'https://nostarch.com'
+print(nostarchUrl.removeprefix('https://'))
 
