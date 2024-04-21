@@ -42,3 +42,27 @@ print(favorite_language.strip())
 nostarchUrl = 'https://nostarch.com'
 print(nostarchUrl.removeprefix('https://'))
 
+"""
+Numbers
+"""
+
+# Python typically will default to float for number format post equation result
+
+wealth = 14_000_000_000
+print(wealth)
+
+#Python simply will ignore the underscores for numbers, these two fill print the same number for example
+thousand_1 = 1_000
+thousand_2 = 10_00
+print(thousand_1)
+print(thousand_2)
+
+#Multiple assignment to variables
+x,y,z = 0,1,2
+print(x,y,z)
+
+#Constant is a variable that has a value that stays the same throughout the life of a program. These are typically written in all caps as syntax
+MAX_CONNECTIONS = 500
+
+taxi_cab_number = 1729
+print(f"This is an example of a taxi-can number: {taxi_cab_number}")
