@@ -15,3 +15,20 @@ print(motorcycles)
 del motorcycles[2]
 print(motorcycles)
 
+removed = motorcycles.pop()
+removed_with_position = motorcycles.pop(1)
+
+#del should be used when deleting an item from a list and not use that item. pop should be used when I want to remove an item from a list and use it
+
+print(motorcycles)
+motorcycles.remove('suzuki')
+#remove can be stored for later use in a variable. it also will only remove the first instance of a match
+
+#Organizing a list
+
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars.sort()
+print(cars)
+
+cars.sort(reverse=True)
+print(cars)
