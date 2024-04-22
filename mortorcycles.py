@@ -44,9 +44,6 @@ print(cars)
 
 print(len(cars))
 
-"""
-Working With Lists
-"""
 
 
 
