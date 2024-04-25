@@ -1,3 +1,4 @@
+
 class Dog:
     """ A Simple attempt to model a dog."""
 
@@ -16,3 +17,8 @@ class Dog:
 
 my_dog = Dog("Rex", 15)
 print(my_dog)
+print(my_dog.name)
+
+my_dog.sit()
+my_dog.roll_over()
+
