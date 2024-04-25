@@ -1,7 +1,7 @@
 class Dog:
     """ A Simple attempt to model a dog."""
 
-    def _init_(self, name, age):
+    def __init__(self, name, age):
         """Initialize name and age attributes"""
         self.name = name
         self.age = age
@@ -13,3 +13,6 @@ class Dog:
     def roll_over(self):
         """Simulate a dog rolling over in response to a command"""
         print(f"{self.name} rolled over!")
+
+my_dog = Dog("Rex", 15)
+print(my_dog)
