@@ -16,9 +16,15 @@ line_contents = path.read_text().splitlines()
 
 pi_content = ""
 
-for line in lines:
+for line in line_contents:
     pi_content += line.lstrip()
 
 print(pi_content[:50])
 print(len(pi_content))
-print(pi_content)
+
+birthday = input("Please enter your birthday mmddyy: ")
+
+if birthday in pi_content:
+    print("Your birthday is in the first million digits of pi")
+else:
+    print("Your birthday is not in the first million digits of pi")
