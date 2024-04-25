@@ -1,0 +1,6 @@
+Unit Tests and Test Cases
+
+unit test: verifies that one specific aspect of a functions' behavior is correct
+
+test case: a collection of unit tests that together prove that a function behaves as its supposed to, within the full range of situations you expect it to handle
+
