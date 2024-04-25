@@ -9,4 +9,9 @@ a class is a set of instructions for how to make an instance
 #Inheritance
 creating a class from another class, taking on attributes and methods. Parent class to child class
 Parent class and child class must both be part of the same file, and parent defined before child
+
+#Composition
+breaking up a large class into smaller classes that work together
+
+#Start to think at higher logical level rather than a syntax-focused level
 """
